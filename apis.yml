@@ -1,9 +1,32 @@
 aid: tebi
 name: Tebi
-description: 'Tebi is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Tebi is a hospitality management platform that unifies point-of-sale, payments,
+  and back-office operations for restaurants, bars, cafes, bakeries, quick-service
+  venues, and events. The system connects front-of-house service to back-office
+  administration in a single product spanning Point of Sale, Kitchen Display System,
+  Reservations, integrated card Payments (with invoicing and split-bill), QR ordering,
+  inventory management, CRM, recipe management, and AI-driven insights. Tebi is priced
+  on a revenue-based subscription (the first EUR 10k of monthly revenue is free, each
+  additional EUR 10k costs EUR 20/month) with no long-term contracts, and it bundles
+  its own payment processing with transparent per-transaction fees. The company is
+  backed by Index Ventures. Tebi does not currently publish a public developer API,
+  OpenAPI specification, SDKs, or a developer portal; this profile captures its
+  production identity, help center, changelog, status page, and security posture as
+  surfaced by the API Evangelist enrichment pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/tebi/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/8ar2g4vkI2wFtLWuZ8LncXUIwM.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Payments
+- Point of Sale
+- Hospitality
+- Restaurants
+- Reservations
+- Inventory
+- CRM
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +54,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://tebi.co
+  url: https://tebi.com
+- type: Pricing
+  url: https://tebi.com/pricing
+- type: Blog
+  url: https://tebi.com/blog
+- type: HelpCenter
+  url: https://help.tebi.com/
+- type: Support
+  url: mailto:support@tebi.com
+- type: TermsOfService
+  url: https://tebi.com/privacy/tebi-terms-of-service
+- type: PrivacyPolicy
+  url: https://tebi.com/privacy/privacy-policy
+- type: SignUp
+  url: https://live.tebi.co/backoffice/sign-up
+- type: Login
+  url: https://live.tebi.co/backoffice/
+- type: StatusPage
+  url: https://status.tebi.com/
+- type: ChangeLog
+  url: https://help.tebi.com/en/articles/496776-changelog
+- type: DomainSecurity
+  url: security/tebi-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
