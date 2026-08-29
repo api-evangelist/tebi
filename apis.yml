@@ -15,6 +15,17 @@ description: >-
   production identity, help center, changelog, status page, and security posture as
   surfaced by the API Evangelist enrichment pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/tebi/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
