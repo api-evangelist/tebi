@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/tebi/integrations
+- https://n8n.io/integrations/tebi/
+- https://composio.dev/toolkits/tebi
+- https://monid.ai/tools/tebi
+checked:
+- https://composio.dev/toolkits/tebi
+- https://monid.ai/tools/tebi
+- https://n8n.io/integrations/tebi/
+- https://zapier.com/apps/tebi/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
